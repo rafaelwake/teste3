@@ -15,8 +15,30 @@ public class Main {
 
 
 	private void start() {
+		result();
+	}
+	
+	private void result() {
 		System.out.println("Hello");
+	
+		for (int i = 0; i < 5; i++) {
+			
+				switch (i) {
+				case 1:
+						System.out.println("primeiro");
+
+					break;
+				case 2:
+					System.out.println("segundo");
+
+				break;
+
+				default:
+					break;
+			
+		}
+		
 	}
 
-
+	}
 }
